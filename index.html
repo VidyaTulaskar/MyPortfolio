@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - vidya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <!-- Nav Bar-->
+     <div class="container"> 
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Vidya.</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skill" class="nav-link">Skills</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dark Mode-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- Main-->
+        <main class="wrapper">
+            <section class="section" id="home">
+                <div class="featured-box">
+                    <div class="featured-text">
+                        <div class="hello">
+                            <p>Hello I'm</p>
+                        </div>
+                        <div class="featured-name">
+                            <span class="typedText"></span>
+                        </div>
+                        <div class="text-info">
+                            <p>My name is <b>vidya Tulaskar!</b>
+                               <br/>I'm a <b>java developer</b>.
+                               Eager to apply my skills in a collaborative environment to solve real-world problems and contribute to 
+                               innovative projects. 
+                            </p>
+                        </div>
+                        <div class="text-btn">
+                            <a class="btn hire-btn" href="#contact">Hire Me</a>
+                            <a class="btn" href="VidyaTulaskar_Resume.pdf" target="_blank">Resume<i class="uil uil-file"></i></a>
+                            <!--<button class="btn hire-btn"><a href="#contact">Hire Me</a></button>
+                            <button class="btn"><a href="">Download CV<i class="uil uil-file"></i></a></button>-->
+                        </div>
+                        <div class="social_icons">
+                            <div class="icon"><a href="mailto:vidyatulaska6666@gmail.com"><i class="uil uil-envelope"></i></a></div>
+                            <div class="icon"><a href="https://www.linkedin.com/in/vidya-tulaskar/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                            <div class="icon"><a href="https://github.com/VidyaTulaskar/" target="_blank"><i class="uil uil-github-alt"></i></a></div>      
+                        </div>
+                    </div>
+                    <div class="fetured-image">
+                        <div class="image">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--about box-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="profile-pic.png" alt="" class="profile" />
+                                    <h2>Java developer</h2>
+                                    <p>A passionate and dedicated Java Developer with hands-on experience in building web-based applications 
+                                        using Java, Spring, and JSP. Proficient in core Java concepts, object-oriented programming, 
+                                        and familiar with full-stack technologies like HTML, CSS, and JavaScript. 
+                                        Skilled in working with databases using JDBC and Oracle, with a strong understanding of software 
+                                        development lifecycle processes. <br/>
+                                        Ready to take on new challenges and grow in the field of software development.
+                                    </p>
+                            </figure>
+                            <a class="about-me-btn" href="VidyaTulaskar_Resume.pdf" download>Download CV <i class="uil uil-import"></i></a>
+                            <!--<button class="about-me-btn">Hire Me</button>-->
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div class="education-box">
+                            <div><i class="fa-solid fa-graduation-cap"></i> </div>
+                            <div class="education-summary">
+                                <div class="title"><span class="sub-title">Bachelor of Engineering (CSE)</span> <span class="time">2019-2023</span></div>
+                                <p>Tulsiramji Gaikwad Patil College of Engineering and Technology, Nagpur</p>
+                            </div>
+                        </div>
+                        <div class="education-box">
+                            <div><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="education-summary">
+                                <div class="title"> <span class="sub-title">Higher Secondary Certificate</span> <span class="time">2017-2019</span></div>
+                                <p>Nanaji Joshi Jr College, Shahapur</p>
+                            </div>
+                        </div>
+                        <div class="education-box">
+                            <div><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="education-summary">
+                                <div class="title"> <span class="sub-title">Secondary School Certificate</span> <span class="time">2016-2017</span></div>
+                                <p>Nanaji Joshi Vidayalaya, Shahapur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Skills-->
+            <section class="section" id="skill">
+                <div class="top-header">
+                    <h1>My Skills</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="skill-container-left">
+                            <div class="skill-box left">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box left">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box left">
+                                <span class="title">JavaScript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per javascript">
+                                        <span class="tooltip">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box left">
+                                <span class="title">Bootstrap</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per bootstrap">
+                                        <span class="tooltip">60%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box left">
+                                <span class="title">Oracle</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per oracle">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <div class="col">-->
+                        <div class="skill-container-right">
+                            <div class="skill-box right">
+                                <span class="title">Java</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per java">
+                                        <span class="tooltip">90%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box right">
+                                <span class="title">JDBC</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per jdbc">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box right">
+                                <span class="title">Servlet</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per servlet">
+                                        <span class="tooltip">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box right">
+                                <span class="title">Jsp</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per jsp">
+                                        <span class="tooltip">40%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box right">
+                                <span class="title">SpringBoot</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per springboot">
+                                        <span class="tooltip">50%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                   <!-- </div>-->
+                </div>
+            </section>
+
+
+            <!--Projects-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <!-- Project 1 -->
+                    <div class="project-box">
+                        <div class="project-image" style="background-image: url('note_taking_app_Img.png');">
+                            <div class="overlay">
+                                <h2>Note-Taking Website</h2>
+                                <p>Developed a note-taking website using Servlet, JSP, JDBC, HTML, CSS, Bootstrap, and JavaScript. The website
+                                    allows users to create, edit, and delete notes, with features including user authentication, session management,
+                                    and responsive design.<br>Utilized HTML, CSS, and JavaScript for front-end development to enhance user experience.
+                                    </p>
+                                <a href="https://github.com/VidyaTulaskar/note-taking" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Project 2 -->
+                    <div class="project-box">
+                        <div class="project-image" style="background-image: url('portfolio_wesite_Img.png');">
+                            <div class="overlay">
+                                <h2>Portfolio Website</h2>
+                                <p> Created a responsive portfolio website to showcase my skills, projects, and experience.
+                                    Implemented smooth navigation and interactive features to enhance user experience.
+                                    <br>Technology Used: HTML5, CSS3, JavaScript</p>
+                                <a href="https://github.com/VidyaTulaskar/MyPortfolio" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Project 3 -->
+                    <div class="project-box">
+                        <div class="project-image" style="background-image: url('online_bookStore_website_Img.png');">
+                            <div class="overlay">
+                                <h2>Online Bookstore Website</h2>
+                                <p>I developed an online bookstore website project using Java technology, featuring dual login functionalities for administrators and customers. 
+                                   As an administrator, I implemented features allowing for the editing, viewing, and modification of book details within the system. 
+                                   On the other hand, customers could seamlessly browse through available books & make purchases.
+                                    <br>Technology Used: Java, J2EE ( JDBC, Servlet, JSP), HTML, CSS, Javascript, Oracle & tomcat.</p>
+                                <a href="https://github.com/VidyaTulaskar/online-bookstore" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Project 4 -->
+                    <div class="project-box">
+                        <div class="project-image" style="background-image: url('biriyani_Project_Img.png');">
+                            <div class="overlay">
+                                <h2>Biryani Order Placing System</h2>
+                                <p style="padding:'10px';">The "Biryani Order Placing System" is a comprehensive and userfriendly application built entirely on the core concepts of Java and
+                                    Object-Oriented Programming (OOP).
+                                <br>Technology Used : Java.</p>
+                                <a href="https://github.com/VidyaTulaskar/Biryani_Order_Placing_System" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-box">
+                        <div class="project-image" style="background-image: url('soil_crop_Img.jpg');">
+                            <div class="overlay">
+                                <h2>Soil classification and crop suggetion using ML</h2>
+                                <p>In this project, it will classify the soil based on the color, soil texture, types of soil particles etc. using Convolutional Neural Network and Support Vector Machine. and according to the soil it will suggest which crop should be cultivate.
+                                </p>
+                                <a href="https://github.com/VidyaTulaskar/Soil-Classification" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            </section>
+            
+            
+            <!--Contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><a href="mailto:vidyatulaska6666@gmail.com"><i class="uil uil-envelope"></i> Email:vidyatulaska6666@gmail.com</a></p> 
+                            <p><a href="tel:9307967629"><i class="uil uil-phone"></i> Phone:09307967629</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="text" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                               
+                            </form>
+                        </div>
+                       <!-- <div class="form-control">
+                           
+                                <div class="form-inputs">
+                                    <input type="text" name="Name" class="input-field" placeholder="Your Name" required>
+                                    <input type="text" name="Email" class="input-field" placeholder="Your Email" required>
+                                </div>
+                                <div class="text-area">
+                                    <textarea name="Message" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send<i class="uil uil-message"></i></button>
+                                </div>
+                        </div>-->
+                        
+                    </div>
+                    
+                </div>
+                <span id="msg"></span>
+            </section>
+        </main> 
+        <!--Footer-->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="mailto:vidyatulaska6666@gmail.com"><i class="uil uil-envelope"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/vidya-tulaskar/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://github.com/VidyaTulaskar/" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none; color: blueviolet;">Vidya</a> - All right reserved 2024</p>
+            </div>
+        </footer>
+     </div>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+     <script src="script.js"></script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx7zzRdJWQpcjxWo1UEtILY4sqxnHBW-NzVnXxGNQwA-FYDgcuDui10DSGFQ0lBVDNc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
